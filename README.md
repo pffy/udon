@@ -1,10 +1,8 @@
-# ramen
-Google Apps Script locale template repo
+# udon
 
-> ### **NOTE:** This is a simple template. More work in forked repos.
+Google Apps Script locale template repo based on [pffy/ramen][ramen]
 
 This repo:
-
 + extends Google Sheets with Google Apps Script
 + implements the locales found in the **File > Settings** preferences box
   + includes at total of 72 locales 
@@ -15,6 +13,10 @@ This repo:
 + includes two sample locales with string values: `en_US` and `fr_FR`
 + includes the other 70 locales with no string values
 + uses locale code as keys for retrieving strings values in `msgs` map
+
+This repo also:
++ provides test data about locale-dependent function parameter delimiters 
+
 
 ```javascript
 const str = msgs['fr_FR'].helloString;
@@ -127,4 +129,5 @@ Venezuela | `es_VE`
 Vietnam | `vi_VN`
 
 
-[tsv]: https://github.com/pffy/ramen/blob/main/data/google-sheets-locales-list.tsv
+[ramen]: https://github.com/pffy/ramen
+[tsv]: https://github.com/pffy/udon/blob/main/data/google-sheets-locales-list.tsv
