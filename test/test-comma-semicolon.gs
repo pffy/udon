@@ -60,13 +60,14 @@ function delimiter(sht) {
 
 function getBasisId() {
 
-  // creating your own basis document is simple
-  // the basis document is a reference point for locale conversion
-  // locale: en_US
+  // the Google Sheets basis document is a reference point for locale conversion  
+  
+  // creating your own basis document is simple in Google Sheets
+  // Settings > locale: en_US
   // A1 - __BLANK__ displays locale code (e.g., en_US)
   // B1 - __BLANK__ displays COMMA or SEMICOLON
-  // A2 - 'https://google.com
-  // A3 - 'Google
+  // A2 - https://google.com
+  // A3 - Google
   // A4 - =HYPERLINK(A2,A3)
 
   const url = 'https://docs.google.com/spreadsheets/d/[YOUR_GOOGLESHEETS_ID_HERE]/edit#gid=0';
