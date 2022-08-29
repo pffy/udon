@@ -63,6 +63,7 @@ function getBasisId() {
   // the Google Sheets basis document is a reference point for locale conversion  
   
   // creating your own basis document is simple in Google Sheets
+  // Name: test-basis-en-us
   // Settings > locale: en_US
   // A1 - __BLANK__ displays locale code (e.g., en_US)
   // B1 - __BLANK__ displays COMMA or SEMICOLON
